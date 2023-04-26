@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".ClappingPushUpFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Chest Exercises"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_gradient" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="115dp"
+            android:text="Clapping Push Up"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/rounded_button"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="475dp"
+            android:layout_marginRight="16dp"
+            android:text="Get to the ground and start the standard push-up position. Hands and feet about shoulder-width apart and make sure your body is in straight line."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="565dp"
+            android:layout_marginRight="16dp"
+            android:text="Lower your body down and push yourself out just enough for your hands to leave the ground. While your hands are in mid-air, do a quick clap and immediately put your hands back to the ground. "
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="675dp"
+            android:layout_marginRight="16dp"
+            android:text="Perform as many as you can handle, take it little by little if necessary."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="725dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="15dp"
+            android:text="Note: This type of push-up can’t be performed by a completely beginner, it is recommended to be used to standard push-up first before proceeding to do clapping push-up."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+    </RelativeLayout>
+</ScrollView>

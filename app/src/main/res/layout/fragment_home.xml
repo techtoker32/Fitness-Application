@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Let's Get Started"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_gradient" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="106dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="16dp"
+            android:background="#00000000"
+            android:textColor="@color/white"
+            android:text="Warm Up" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="106dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginRight="16dp"
+            android:background="#00000000"
+            android:textColor="@color/white"
+            android:text="BMI" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="106dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="265dp"
+            android:background="#00000000"
+            android:textColor="@color/white"
+            android:text="TIPS" />
+
+        <Button
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="185dp"
+            android:background="@drawable/rectangle2"
+            android:textColor="@color/white"
+            android:text="Warm Up Exercises"
+            android:textAlignment="textStart"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="275dp"
+            android:layout_marginRight="10dp"
+            android:text="March In Place"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="330dp"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/warmup1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="515dp"
+            android:layout_marginRight="15dp"
+            android:text="• Stand straight with your elbows bent at a 90-degree angle and your feet hip width apart. "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="555dp"
+            android:layout_marginRight="15dp"
+            android:text="• Bring your right elbow forward at the same time as you bring your left knee up."
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="595dp"
+            android:layout_marginRight="15dp"
+            android:text="• Repeat on the opposite side and keep alternating sides until set is complete."
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="665dp"
+            android:layout_marginRight="15dp"
+            android:text="Hip Circles"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="720dp"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/warmup2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="905dp"
+            android:layout_marginRight="15dp"
+            android:text="• Stand with your feet together, and raise one knee to 90 degrees. "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="945dp"
+            android:layout_marginRight="15dp"
+            android:text="• Make a big circle with your knee, as wide as you can, while staying stable. "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="985dp"
+            android:layout_marginRight="15dp"
+            android:text="• Keep circling slowly for eight reps. Switch direction and make another eight reps. Repeat on the other leg. "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1045dp"
+            android:layout_marginRight="15dp"
+            android:text="• Do eight reps inward and eight reps outward."
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1090dp"
+            android:layout_marginRight="15dp"
+            android:text="Arm Circles"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1145dp"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/warmup3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1330dp"
+            android:layout_marginRight="15dp"
+            android:text="• Stand with your feet shoulder-width apart and your arms by your sides. Swing your arms forward in a slow circular motion. "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1390dp"
+            android:layout_marginRight="15dp"
+            android:text="• You must feel your shoulders loosening up as you do so. Continue the circular motion for eight reps.  "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1435dp"
+            android:layout_marginRight="16dp"
+            android:text="• Then circle the arms in the opposite direction for another eight reps. You must complete eight reps inward and eight reps outward.   "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1525dp"
+            android:layout_marginRight="15dp"
+            android:text="Walk Outs"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1580dp"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/warmup5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1765dp"
+            android:layout_marginRight="16dp"
+            android:text="• Start with your feet hip-width apart and arms at sides. To reach the floor, bend at hips and crawl out to a high plank position. "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1825dp"
+            android:layout_marginRight="16dp"
+            android:text="• Pause your shoulders over your wrists for a few seconds. Then crawl your hands back to your feet before standing up, and one rep is complete.  "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1885dp"
+            android:layout_marginRight="16dp"
+            android:text="• Perform eight reps at least. "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1940dp"
+            android:layout_marginRight="15dp"
+            android:text="Squats"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1995dp"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/warmup6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2180dp"
+            android:layout_marginRight="16dp"
+            android:text="• Stand with your feet shoulder-width apart, hands at your chest, and toes turned out slightly.  "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2220dp"
+            android:layout_marginRight="16dp"
+            android:text="• Bend at your knees and hips to move into a squat position while bringing your butt to knee height.   "
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2260dp"
+            android:layout_marginRight="16dp"
+            android:text="• Keep your chest high. Turn to a standing position by driving through your heels."
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2300dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:text="• Perform at least 15 reps."
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+    </RelativeLayout>
+</ScrollView>

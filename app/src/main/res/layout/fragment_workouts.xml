@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".WorkoutsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Workouts"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_gradient" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="350dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="117dp"
+            android:background="@drawable/rounded_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pushup1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="255dp"
+            android:text="Chest Exercises"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="305dp"
+            android:src="@drawable/girlplanking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="438dp"
+            android:text="Core Exercises"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="350dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="488dp"
+            android:background="@drawable/rounded_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="626dp"
+            android:text="Arm Exercises"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="350dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="675dp"
+            android:background="@drawable/rounded_button"
+            android:scaleType="center"
+            android:src="@drawable/girlback" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="813dp"
+            android:text="Back Exercises"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="350dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="862dp"
+            android:background="@drawable/rounded_button"
+            android:scaleType="center"
+            android:src="@drawable/leg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="1000dp"
+            android:text="Leg Exercises"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

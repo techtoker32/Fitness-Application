@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028297238985",
+    "project_id": "login-fitapp",
+    "storage_bucket": "login-fitapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028297238985:android:335e5934d63b3f0d816018",
+        "android_client_info": {
+          "package_name": "com.example.fitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028297238985-h4u5g7t04pu0215148ss7sfhp5bn3hg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD2HDKpTET166_si0mi6NjIQli6mHjQSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028297238985-h4u5g7t04pu0215148ss7sfhp5bn3hg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

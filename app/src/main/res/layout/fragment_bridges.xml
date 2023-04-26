@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".DonkeyKicksFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Leg Exercises"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/violet4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="115dp"
+            android:text="Bridges"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="475dp"
+            android:layout_marginRight="16dp"
+            android:text="Begin by lying on your back and placing your feet on the ground. Create a 45 degrees angle by your need and put your hands on the sides of your body."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="575dp"
+            android:layout_marginRight="16dp"
+            android:text="With this position, you can now bring your hips up to create a straight line between your knees and shoulders. Hold for 3-5 seconds, then relax your body by returning to the original position. Repeat the process and keep maintaining correct posture."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="715dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="15dp"
+            android:text="Bridges primarily target the gluteus maximus muscle, which is the largest muscle in the buttocks. It can strengthen and tone your glutes, improve your posture, and alleviate lower back pain."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+    </RelativeLayout>
+</ScrollView>

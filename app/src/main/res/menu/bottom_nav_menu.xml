@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/workouts"
+        android:enabled="true"
+        android:title="Workouts"
+        android:icon="@drawable/dumbbell" />
+    <item
+        android:id="@+id/challenges"
+        android:enabled="true"
+        android:title="Challenges"
+        android:icon="@drawable/challenges" />
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
+
+</menu>
+

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".SideLegRaisesFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Leg Exercises"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_gradient" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="115dp"
+            android:text="Side Leg Raises"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="475dp"
+            android:layout_marginRight="16dp"
+            android:text="Lie down on your right side on a mat or the floor. Your body should be in a straight line with your legs extended and feet stacked on top of each other. Place your arm straight on the floor under your head or bend your elbow and cradle your head for support. Place your left hand out front for extra support or let it rest on your leg or hip."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginRight="16dp"
+            android:text="As you exhale, gently raise your left leg off the lower leg. Stop raising your leg when you feel the muscles flex in your lower back or obliques. Inhale and lower the leg back down to meet the right leg. Stack your feet again. Repeat 10-12 times, then switch to the other side."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="810dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="15dp"
+            android:text="Side leg raises primarily target the muscles of the outer hip, specifically the gluteus medius and gluteus minimus. It can strengthen and tone the muscles of the outer hip, which can help improve stability and balance in the hip joint."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+    </RelativeLayout>
+</ScrollView>

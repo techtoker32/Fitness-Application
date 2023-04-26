@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".HighKneesFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Leg Exercises"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/background_gradient" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="115dp"
+            android:text="High Knees"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="475dp"
+            android:layout_marginRight="16dp"
+            android:text="Start up by standing straight up. Then start by jumping and bring your right knee up then left knee alternate. "
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginRight="16dp"
+            android:text="Do it continuously like you’re running in your place. You are now performing high knees."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="605dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="15dp"
+            android:text="High knees exercise primarily targets the muscles of the lower body, including the quadriceps, hamstrings, and calves."
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="normal"/>
+
+    </RelativeLayout>
+</ScrollView>
